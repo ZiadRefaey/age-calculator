@@ -1,0 +1,22 @@
+:root {
+  --Purple: #854dff;
+  --Red: #ff5959;
+  overflow-x: none;
+  font-family: "Poppins", sans-serif;
+}
+.heading-l {
+  line-height: 110%;
+  font-size: 104px;
+  font-weight: 800;
+  letter-spacing: -2%;
+  font-style: italic;
+}
+.heading-m {
+  line-height: auto;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1%;
+}
+.purple {
+  color: var(--Purple);
+}

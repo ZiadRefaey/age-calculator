@@ -1,0 +1,28 @@
+.results-container {
+  width: 100%;
+}
+.result {
+  line-height: 110%;
+  font-size: 104px;
+  font-weight: 1000;
+  letter-spacing: -2%;
+  font-style: italic;
+}
+
+.result-number {
+  color: var(--Purple);
+}
+
+@media screen and (max-width: 700px) {
+  .seperating-line {
+    margin: 64px 0px;
+  }
+  .result {
+    font-size: 86px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .result {
+    font-size: 56px;
+  }
+}
