@@ -98,6 +98,7 @@ export default function CurrentAge({ currentAge, setCurrentAge }) {
                 className="day"
                 id="day"
                 value={days}
+                placeholder="DD"
                 onChange={(e) => {
                   {
                     setDays(e.target.value);
@@ -129,6 +130,7 @@ export default function CurrentAge({ currentAge, setCurrentAge }) {
             </label>
             <div className="input-container">
               <input
+                placeholder="MM"
                 type="number"
                 className="month"
                 id="month"
@@ -167,6 +169,7 @@ export default function CurrentAge({ currentAge, setCurrentAge }) {
             </label>
             <div className="input-container">
               <input
+                placeholder="YY"
                 type="number"
                 className="year"
                 id="year"
